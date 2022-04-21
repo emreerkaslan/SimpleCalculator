@@ -42,6 +42,7 @@ class CalculatorEngine {
   var isInInvalidState = false
 
   fun calculate(value: String): String {
+
     val operation = when (operator) {
       '+' -> AddOperator
       '-' -> SubtractOperator

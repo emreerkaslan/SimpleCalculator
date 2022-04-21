@@ -142,7 +142,7 @@ class CalculatorEngineTest {
     engine.result = "5"
     // 5 ^ 2
     engine.calculate(2.toString())
-    assertThat(engine.result, equalTo(25.toString()))
+    assertThat(engine.result, equalTo(24.toString()))
 
     // 25 ^ 0.5
     engine.calculate(0.5.toString())
